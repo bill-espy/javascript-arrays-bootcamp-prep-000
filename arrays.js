@@ -1,3 +1,4 @@
+
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 
 function addElementToBeginningOfArray(chocolateBars, element1){
@@ -18,7 +19,7 @@ function destructivelyAddElementToEndOfArray(chocolateBars, element4){
   return chocolateBars
 }
 
-function accessElementInArray(chocolateBars, index){
+function accessElementInArray(index){
   return chocolateBars[index]
 }
 
@@ -39,3 +40,4 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars){
 function removeElementFromEndOfArray(chocolateBars){
   return chocolateBars.slice(0,chocolateBars.length-1)
 }
+
